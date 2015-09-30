@@ -1,0 +1,67 @@
+﻿Build started 2013/10/29 下午 07:06:05.
+     1>Project "C:\Users\MBA\Desktop\2013OpenNI2\Skeleton\Skeleton.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\Skeleton.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "x64\Debug\Skeleton.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\PrimeSense\NiTE2\Include\\" /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include\opencv /IC:\opencv\build\include /I"C:\Program Files\OpenNI2\Include\\" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt Guitar.cpp RtMidi.cpp
+         RtMidi.cpp
+     1>RtMidi.cpp(2140): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>RtMidi.cpp(2215): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         Guitar.cpp
+     1>c:\users\mba\desktop\2013openni2\skeleton\MakeMidiSound.h(46): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\mba\desktop\2013openni2\skeleton\MakeMidiSound.h(18): warning C4101: 'input' : unreferenced local variable
+     1>Guitar.cpp(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>Guitar.cpp(276): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(276): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(277): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(277): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(278): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(278): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(281): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(281): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(281): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(281): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(282): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(282): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(282): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(282): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(283): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(283): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(283): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(283): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(284): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(284): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(284): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Guitar.cpp(284): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Debug\Skeleton.res" Skeleton.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\Skeleton.exe.embed.manifest.res" x64\Debug\Skeleton_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MBA\Desktop\2013OpenNI2\x64\Debug\Skeleton.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\PrimeSense\NiTE2\Lib\\" /LIBPATH:"C:\Program Files\OpenNI2\Lib\\" /LIBPATH:C:\opencv\build\x64\vc10\lib opencv_core246d.lib opencv_highgui246d.lib opencv_video246d.lib opencv_ml246d.lib opencv_legacy246d.lib opencv_imgproc246d.lib opencv_objdetect246d.lib OpenNI2.lib NiTE2.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Skeleton.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\MBA\Desktop\2013OpenNI2\x64\Debug\Skeleton.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MBA\Desktop\2013OpenNI2\x64\Debug\Skeleton.lib" /MACHINE:X64 x64\Debug\Skeleton.res
+         x64\Debug\Skeleton.exe.embed.manifest.res
+         x64\Debug\Guitar.obj
+         x64\Debug\RtMidi.obj
+         Skeleton.vcxproj -> C:\Users\MBA\Desktop\2013OpenNI2\x64\Debug\Skeleton.exe
+       Manifest:
+         Deleting file "x64\Debug\Skeleton.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\Skeleton.exe.embed.manifest" /manifest x64\Debug\Skeleton.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\Skeleton.exe.embed.manifest.res" x64\Debug\Skeleton_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MBA\Desktop\2013OpenNI2\x64\Debug\Skeleton.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\PrimeSense\NiTE2\Lib\\" /LIBPATH:"C:\Program Files\OpenNI2\Lib\\" /LIBPATH:C:\opencv\build\x64\vc10\lib opencv_core246d.lib opencv_highgui246d.lib opencv_video246d.lib opencv_ml246d.lib opencv_legacy246d.lib opencv_imgproc246d.lib opencv_objdetect246d.lib OpenNI2.lib NiTE2.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Skeleton.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\MBA\Desktop\2013OpenNI2\x64\Debug\Skeleton.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MBA\Desktop\2013OpenNI2\x64\Debug\Skeleton.lib" /MACHINE:X64 x64\Debug\Skeleton.res
+         x64\Debug\Skeleton.exe.embed.manifest.res
+         x64\Debug\Guitar.obj
+         x64\Debug\RtMidi.obj
+         Skeleton.vcxproj -> C:\Users\MBA\Desktop\2013OpenNI2\x64\Debug\Skeleton.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\Skeleton.unsuccessfulbuild".
+         Touching "x64\Debug\Skeleton.lastbuildstate".
+     1>Done Building Project "C:\Users\MBA\Desktop\2013OpenNI2\Skeleton\Skeleton.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.55
